@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    padding: 10px;
+    background-color: #f4f4f4; /* Optional: add a background color for better visibility */
+}
+
+header i {
+    font-size: 24px; /* Adjust the size of the icon */
+    margin-right: 10px; /* Add some space between the icon and the text */
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Stack the first box on top */
+    align-items: center; /* Center the boxes horizontally */
+}
+
+.box {
+    background-color: #3498db;
+    color: white;
+    width: 200px; /* Ensure all boxes are the same width */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.row {
+    display: flex; /* Use flexbox to arrange boxes in a row */
+    justify-content: center; /* Center the row content */
+    width: 100%; /* Make the row take full width */
+}
+#box2 {
+    margin-right: 70px; /* Add space to the right of the Two Pointer box */
+}
