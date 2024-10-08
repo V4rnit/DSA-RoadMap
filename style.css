@@ -1,8 +1,14 @@
-header {
-    display: flex;
+header{
     align-items: center; /* Vertically centers the items */
     padding: 10px;
-    background-color: #f4f4f4; /* Optional: add a background color for better visibility */
+    background-color: #f4f4f4;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+#smallpic{
+    float: left; /*use to wrap the text around the picture */
+    margin-right: 10px; /* set the margin between the picture and the text */
+
 }
 
 header i {
@@ -12,7 +18,7 @@ header i {
 
 header h1 {
     font-size: 24px;
-    margin: 0;
+    margin: 0 
 }
 .container {
     display: flex;
@@ -21,14 +27,17 @@ header h1 {
 }
 
 .box {
-    background-color: #3498db;
-    color: white;
+    background-color:grey;
+    color: rgb(247, 242, 242);
     width: 200px; /* Ensure all boxes are the same width */
+    height: 100px;
     padding: 20px;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px 0; /* Margin for spacing */
+    
+    border: 5px solid rgb(128, 128, 128);
+    border-radius: 10px; 
+    box-shadow: 3px 3px 6px red , -3px -3px 6px black;
+    margin: 10px ; /* Margin for spacing */
+    margin-top: 30px;
 }
 
 .row {
@@ -38,4 +47,15 @@ header h1 {
 }
 #box2 {
     margin-right: 70px; /* Add space to the right of the Two Pointer box */
+}
+.text{
+    text-shadow: 3px 3px 6px red, -3px -3px 6px black;
+    text-align: center;
+
+}
+
+/* Styling the li elements within the custom-list ul */
+ul.custom-list li {
+     margin-right: 0px;
+     padding-left: 5px;
 }
